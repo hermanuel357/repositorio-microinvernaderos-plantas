@@ -1,0 +1,95 @@
+   html,
+   body {
+       height: 100%;
+       margin: 0;
+   }
+
+   body {
+       background-color: rgba(0, 148, 50,1.0);
+   }
+
+   body {
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+   }
+
+   main {
+       flex: 1;
+   }
+
+   .navbar {
+       background-color: rgba(0, 148, 50,1.0)!important;
+
+   }
+
+   .navbar .nav-link {
+       color: rgb(255, 255, 255) !important;
+   }
+
+  
+   .navbar .nav-link:hover {
+       background-color: rgba(68, 189, 50,1.0);
+       border-radius: 5px;
+   }
+
+   
+   .navbar .nav-link.active {
+       font-weight: bold;
+       text-decoration: underline;
+   }
+
+    /* 🔹 Cambia el color del footer */
+    footer {
+      background-color: rgba(0, 148, 50,1.0); 
+      color: rgb(0, 0, 0);
+    }
+
+     body {
+      background-color:rgba(68, 189, 50,1.0);
+      color: #fff;
+    }
+    .gallery img {
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      border-radius: 10px;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+    .title {
+      text-align: right;
+      margin: 150px 0;
+    } 
+    .menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+    
+    background:rgba(236, 240, 241,1.0);
+
+    border:5px solid black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    transition:0.3s;
+    }
+
+
+    .menu a:hover{
+    background:rgba(189, 195, 199,1.0);
+    transform:scale(1.08);
+    }
+
+
+    .menu a:active{
+    background:rgba(149, 165, 166,1.0);
+    transform:scale(0.95);
+    }
